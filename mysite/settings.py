@@ -25,7 +25,7 @@ SECRET_KEY = '+_)du8d1i+7ek32#ha4a^1gq%!mx)d7uxis+y&!^h@iad&76u='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','Iris2222@pythonanywhere']
+ALLOWED_HOSTS = ['127.0.0.1','Iris2222.pythonanywhere']
 
 
 # Application definition
@@ -74,7 +74,6 @@ STATICFILES_DIRS=[
 ]
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases

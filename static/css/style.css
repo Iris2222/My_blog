@@ -1,0 +1,249 @@
+body
+{
+	overflow-x: hidden;
+}
+
+.fon{
+	background-color: #CDA0B3;
+}
+
+.hov:hover{
+  transform: translateY(10px);
+}
+
+
+
+.poster
+{
+	background-image: url(large.jpeg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	size: 50%;
+	height: 50vw;
+	width: 100%;
+	margin-top: 17px;
+	position: absolute;
+}
+
+.compbg
+{
+	background-color: grey;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 5000px;
+	width: 100%;
+	margin-top: 50vw;
+	position: absolute;
+}
+
+.container_head{
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: 90%;
+  margin-left: 50vw;
+  margin-top: 20vw;
+}
+.container_head span{
+  text-transform: uppercase;
+  display: block;
+}
+.mytext1{
+  color: white;
+  font-size: 3vw;
+  font-weight: 700;
+  letter-spacing: 1vw;
+  margin-bottom: 20px;
+  background: #5F3053;
+  position: relative;
+  animation: text 3s 1;
+
+}
+.mytext2{
+  font-size: 2vw;
+  color: white;
+  font-weight: bold;
+   margin-bottom: 20px;
+}
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+
+  }
+  30%{
+    letter-spacing: 2vw;
+    margin-bottom: -40px;
+
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+
+  }
+}
+
+.profile{
+  background-color: #AFC1D7;
+  background-repeat: no-repeat;
+  background-position: relative;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 5s ease-out forwards 4;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+#cat{
+  width: 80px;
+  height: auto;
+}
+nav{
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+
+.col-sm-6{
+	border-radius: 25px;
+	  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.col-3{
+  background-color: #31353a;
+  font-size: 50px;
+  text-align: center;
+}
+
+#footer{
+  background-color: #31353a;
+  font-size: 15px;
+  text-align: center;
+  color: #F6AC00;
+}
+#jk{
+	width: 90%;
+	padding: 9px 0;
+	line-height: 18px;
+	background-color: #E75436;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+  cursor: default;
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: Century Gothic;
+
+}
+
+.col a{
+  color:#B5B8B3;
+}
+
+.col a:hover{
+	color:white;
+  text-decoration: none;
+}

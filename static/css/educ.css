@@ -1,0 +1,109 @@
+img{
+  width:70%;
+  height:auto;
+}
+
+body{
+  background: url(edback.jpg) no-repeat center fixed;
+  background-size: 100%;
+}
+
+#frst{
+  margin-top: 80px;
+}
+
+.card{
+    width:70%;
+    margin: 70px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+a img{
+  width: 80px;
+  height: auto;
+}
+nav{
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  color: black;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+h1{
+margin-top: 130px;
+text-align: center;
+font-family: Century Gothic;
+color: #282C34;
+font-size: 80px;
+}
+
+.col-3{
+  background-color: #31353a;
+  font-size: 50px;
+  text-align: center;
+}
+
+#footer{
+  background-color: #31353a;
+  font-size: 15px;
+  text-align: center;
+  color: #F6AC00;
+}
+
+#jk{
+	width: 90%;
+	padding: 9px 0;
+	line-height: 18px;
+	background-color: #E75436;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+  cursor: default;
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: Century Gothic;
+}
+
+
+.flink{
+  color:#B5B8B3;
+}
+a{
+  color:black;
+}
+a:hover{
+	color:white;
+  text-decoration: none;
+}
+
+h1{
+  text-transform: uppercase;
+  text-indent: 40px;
+  letter-spacing: 2px;
+  word-spacing: normal;
+  text-shadow: 7px 6px pink;
+  font-family: "Gothic",Times, serif;
+  color: #454B56;
+}
+
+.btn-info{
+font-size: 20px;
+}
+
+nav.scrolled {
+  background-color: #31353A !important;
+  transition: background-color 200ms linear;
+}
+.nav-link.scrolled{
+  color:#B5B8A3 !important;
+  transition: color 200ms linear;
+}
+
+.linkv.scrolled{
+  color:#B5B8A3 !important;
+  transition: color 200ms linear;
+}

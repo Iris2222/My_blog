@@ -1,0 +1,135 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href='educ.css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">c</script>
+<script src="{% static 'js/edu.js' %}"></script>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'css/educ.css' %}">
+    <title>Tutorials</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+     <a class="navbar-brand" href="#">
+      <img src="{% static 'images/gin.png' %}" alt="cat">
+      <strong class='linkv'>ADEPTNESS</strong>
+     </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" class='linkv' href=""><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" class='linkv' href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" class='linkv'href="log.html"><i class="fab fa-gripfire"></i> Login</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle"class='linkv' href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-american-sign-language-interpreting"></i> More</a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" class='linkv' href="Artists.html">Artists</a>
+        <a class="dropdown-item" class='linkv' href="#">Famous works</a>
+        <a class="dropdown-item" class='linkv' href="#">Styles</a>
+        <a class="dropdown-item" class='linkv' href="#">For novice artist</a>
+        <a class="dropdown-item" class='linkv' href="Educational.html">Tutorials</a>
+      </div>
+    </li>
+  </ul>
+  </div>
+  </nav>
+
+<h1> Learn by yourself </h1>
+
+    <div id='frst' class="card mb-3">
+      <img src="{% static 'images/pencil.png' %}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Graphics</h5>
+        <p class="card-text">Learn how to with a pencil.Even if you drew quite a bit, didn’t draw at all or doubt your abilities, find a simple pencil and 20 minutes a day - and in a month you will learn how to create amazing images.</p>
+        <button type="button" class="btn btn-info"><a href="graph.html">Read more</a></button>
+
+      </div>
+    </div>
+    <div id='scnd'  class="card">
+      <div class="card-body">
+        <h5 class="card-title">Acrylic</h5>
+        <p class="card-text">It is relatively easy to work with acrylic paints, they dry quickly, forming a waterproof coating. Acrylic paints are very versatile, they can be used to create a variety of different visual textures and effects.</p>
+        <button type="button" class="btn btn-info"><a href="acr.html">Read more</a></button>
+
+      </div>
+      <img src="{% static 'images/mod4.jpg' %}" class="card-img-top">
+    </div>
+    <div id='scnd' class="card mb-3">
+
+      <img src="{% static 'images/flom.jpg' %}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Markers drawing</h5>
+        <p class="card-text">It will be about drawing with alcohol markers in the main. I remind you: the main difference between alcohol markers is that they are refilled with alcohol-based inks and when they draw the paint dries very quickly and does not warp the paper.</p>
+        <button type="button" class="btn btn-info"><a href="marker.html">Read more</a></button>
+
+      </div>
+    </div>
+    <div id='scnd'  class="card">
+      <div class="card-body">
+        <h5 class="card-title">Watercolor drawing</h5>
+        <p class="card-text">Watercolor painting is a great way to express yourself. Watercolor paints are made from multi-colored dyes, immersed in the base, which can be dissolved with water. Landscapes and nature are often written with watercolor.</p>
+        <button type="button" class="btn btn-info"><a href="akva.html">Read more</a></button>
+
+      </div>
+
+      <img src="{% static 'images/aqua2.jpg' %}" class="card-img-top">
+    </div>
+
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-3"> <p id='jk'>Information</p></div>
+      <div class="col-3"><p id='jk'>Sirvices</p></div>
+      <div class="col-3"><p id='jk'>Events</p></div>
+      <div class="col-3"><p id='jk'>Contacts</p></div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id='footer'>
+    <div class="row">
+      <div class="col">Autors: IK</div>
+      <div class="col"><a class='flink' href="#">Tickets</a></div>
+      <div class="col"><a class='flink' href="#">Avangard</a></div>
+      <div class="col"><a href="#" class='flink'>Facebook</a>
+      </div>
+      <div class="w-100"></div>
+      <div class="col">Wall st. h45.numb3</div>
+      <div class="col"><a class='flink' href="#">Merch</a></div>
+      <div class="col"><a class='flink' href="#">Nature</a></div>
+      <div class="col"><a class='flink' href="#">Twitter</a></div>
+      <div class="w-100"></div>
+      <div class="col">555-45-98</div>
+      <div class="col">
+  <a href="#" class='flink'>Packs</a>
+  </div>
+      <div class="col">
+  <a href="#" class='flink'>Historical</a>
+      </div>
+      <div class="col"><a href="#" class='flink'>Email</a></div>
+      <div class="w-100"></div>
+      <div class="col"><pre>     </pre></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

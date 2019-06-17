@@ -1,0 +1,138 @@
+body{
+  background: url(akvaback.jpg) no-repeat center fixed;
+  background-size: 100%; /* Современные браузеры */
+}
+
+img{
+  width:70%;
+  height:auto;
+}
+a img{
+  width: 80px;
+  height: auto;
+}
+nav{
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.col-3{
+  background-color: #31353a;
+  font-size: 50px;
+  text-align: center;
+}
+
+#footer{
+  background-color: #31353a;
+  font-size: 15px;
+  text-align: center;
+  color: #F6AC00;
+  position: absolute;
+}
+
+
+#jk{
+	width: 90%;
+	padding: 9px 0;
+	line-height: 18px;
+	background-color: #E75436;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+  cursor: default;
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: Century Gothic;
+
+}
+
+
+a{
+  color:#B5B8B3;
+}
+
+a:hover{
+	color:white;
+  text-decoration: none;
+}
+
+h1{
+  text-transform: uppercase;
+  text-indent: 40px;
+  letter-spacing: 2px;
+  word-spacing: normal;
+  text-shadow: 7px 6px #B50300;
+  font-family: "Gothic",Times, serif;
+  color: #E7A200;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 80px;
+  float: left;
+}
+
+#child {
+    line-height: 200px;
+}
+ #cont{
+   text-align: center;
+   font-size: 20px;
+   background-color: rgba(0, 0, 0, 0.55);
+   margin-bottom: 30px;
+
+ }
+
+.dr{
+  background-color: #C02C4A;
+  border-radius: 50px;
+  font-size: 10px;
+  margin-top: 120px;
+  text-align: left;
+  width: 120px;
+  font-family: century gothic;
+  color: white;
+  display: inline-block;
+  float: left;
+}
+#j{
+  text-align: center;
+  background-color: #EF3621;
+}
+
+b, ol{
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: century gothic;
+  margin-left: 5px;
+}
+.content{
+  float: left;
+}
+b{
+  float: none;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #E7A200;
+  text-shadow: 2px 3px #B50300;
+}
+#brush{
+  font-family: century gothic;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+  color:#B8B5B3;
+}
+#mark{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+ol{
+  color: #B8B5B3;
+}
+
+h3{
+  color:white;
+}
